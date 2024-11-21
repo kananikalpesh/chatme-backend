@@ -1,0 +1,20 @@
+name: chatme_backend
+description: A sample command-line application.
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: ^3.4.4
+
+dependencies:
+  bcrypt: ^1.1.3
+  crypto: ^3.0.3
+  dart_jsonwebtoken: ^2.14.0
+  mailer: ^6.1.2
+  orm_plus: ^1.0.0
+  path: ^1.9.0
+  uuid: ^4.4.2
+
+dev_dependencies:
+  lints: ^3.0.0
+  test: ^1.24.0
